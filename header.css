@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Poetsen+One&display=swap');
 
 header{
@@ -9,7 +9,9 @@ header{
     top:0;
     left: 0;
     z-index: 999;
-    background-color: #040404c2;
+    background-color: #CDB4DB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    0px 0px 10px rgba(255, 255, 255, 0.1);
 }
 
 .logo{
@@ -21,11 +23,12 @@ header{
 }
 
 .logo span{
-    color: #00a2ff;
+    color: #6F2DBD;
     font-size: 35px;
-    font-family:"Poetsen One", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
     font-weight: bold;
     padding-left: 12px;
+    text-shadow: -3px 3px #ffffff;
 }
 
 nav{
@@ -37,7 +40,14 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: #fff;
+    color: #1f2424;
+    font-size: 20px;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+nav a :hover{
+    text-decoration: none;
+    color: #FFC8DD;
     font-size: 20px;
     font-family: "Encode Sans Expanded", sans-serif;
 }
