@@ -25,13 +25,13 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background: #480CA8;
+    background: #A663CC;
 }
 
 footer p{
     color: #c1d8f3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 20px;
 }
