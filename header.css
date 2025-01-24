@@ -59,5 +59,9 @@ nav a :hover{
 
 #img-w{
     width: 1.5em;
-    color: rgb(39, 39, 39);
+    
+}
+
+#img-w:hover{
+   width: 1.7em;
 }
